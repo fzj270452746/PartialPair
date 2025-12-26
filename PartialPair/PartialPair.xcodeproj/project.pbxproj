@@ -7,26 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20382711237C9DC27CA6AA82 /* ObsidianHapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78C431357200C7D3DF46887 /* ObsidianHapticManager.swift */; };
 		285D00B12EFE6B3700217403 /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285D00B02EFE6B3700217403 /* AdServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		285D00B32EFE6B3A00217403 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285D00B22EFE6B3A00217403 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		285D00E82EFE75F600217403 /* DtabCioam.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285D00E72EFE75F600217403 /* DtabCioam.xcframework */; };
+		3629A0A979D224ADC85E5E0E /* ObsidianAnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8746324DAB7A7029C164CC /* ObsidianAnimationManager.swift */; };
+		779B309C54104394E97E9D13 /* ObsidianScoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C37203D0D82DFB062928B3 /* ObsidianScoreManager.swift */; };
 		8C9A091F4BE5DD3C8FFD2D01 /* Pods_PartialPair.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139690C1A65FEC6411FD6A5D /* Pods_PartialPair.framework */; };
+		8CAB7A3F41C3EB2A7386A3C7 /* ObsidianGameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FE9ED7D3AECA4F21E8535F /* ObsidianGameEngine.swift */; };
+		CD3CA1A22990BC9AF1986CDD /* ObsidianUIFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358139C4E73ABC88C134F5E1 /* ObsidianUIFactory.swift */; };
+		F53E139288B812883C146183 /* ObsidianTimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B303B40D8299EB7DA926CEF /* ObsidianTimerManager.swift */; };
+		FA5BC9B30441F4A7A1B8E1B1 /* ObsidianExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B6CFD01B371FD87F76EB64 /* ObsidianExtensions.swift */; };
 		FE7511ED2EF827F900CB9377 /* PartialPair.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE7511E72EF827F900CB9377 /* PartialPair.xcdatamodeld */; };
 		FE7511F02EF827F900CB9377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE7511E12EF827F900CB9377 /* Assets.xcassets */; };
 		FE7511F22EF827F900CB9377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7511E42EF827F900CB9377 /* LaunchScreen.storyboard */; };
 		FE7511F32EF827F900CB9377 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7511E62EF827F900CB9377 /* Main.storyboard */; };
-		FE7512D72EF90EF400CB9377 /* TilezrRecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7512D32EF90EF400CB9377 /* TilezrRecordsViewController.swift */; };
-		FE7512D82EF90EF400CB9377 /* TilezrSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7512D42EF90EF400CB9377 /* TilezrSettingsViewController.swift */; };
-		FE7512D92EF90EF400CB9377 /* TilezrTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7512D52EF90EF400CB9377 /* TilezrTileView.swift */; };
-		FE7512DA2EF90EF400CB9377 /* TilezrGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7512D02EF90EF400CB9377 /* TilezrGameViewController.swift */; };
-		FE7512DB2EF90EF400CB9377 /* TilezrDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7512C92EF90EF400CB9377 /* TilezrDataManager.swift */; };
-		FE7512DC2EF90EF400CB9377 /* TilezrMainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7512D22EF90EF400CB9377 /* TilezrMainMenuViewController.swift */; };
+		FE7512D72EF90EF400CB9377 /* ObsidianLedgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7512D32EF90EF400CB9377 /* ObsidianLedgerViewController.swift */; };
+		FE7512D82EF90EF400CB9377 /* ObsidianConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7512D42EF90EF400CB9377 /* ObsidianConfigViewController.swift */; };
+		FE7512D92EF90EF400CB9377 /* ObsidianQuartzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7512D52EF90EF400CB9377 /* ObsidianQuartzView.swift */; };
+		FE7512DA2EF90EF400CB9377 /* ObsidianArenaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7512D02EF90EF400CB9377 /* ObsidianArenaViewController.swift */; };
+		FE7512DB2EF90EF400CB9377 /* ObsidianVaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7512C92EF90EF400CB9377 /* ObsidianVaultManager.swift */; };
+		FE7512DC2EF90EF400CB9377 /* ObsidianPortalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7512D22EF90EF400CB9377 /* ObsidianPortalViewController.swift */; };
 		FE7512DD2EF90EF400CB9377 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7512CF2EF90EF400CB9377 /* SceneDelegate.swift */; };
-		FE7512DE2EF90EF400CB9377 /* TilezrTileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7512CD2EF90EF400CB9377 /* TilezrTileModel.swift */; };
-		FE7512DF2EF90EF400CB9377 /* TilezrInstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7512D12EF90EF400CB9377 /* TilezrInstructionsViewController.swift */; };
+		FE7512DE2EF90EF400CB9377 /* ObsidianQuartzModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7512CD2EF90EF400CB9377 /* ObsidianQuartzModel.swift */; };
+		FE7512DF2EF90EF400CB9377 /* ObsidianScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7512D12EF90EF400CB9377 /* ObsidianScrollViewController.swift */; };
 		FE7512E02EF90EF400CB9377 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7512C82EF90EF400CB9377 /* AppDelegate.swift */; };
-		FE7512E12EF90EF400CB9377 /* TilezrSettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7512CA2EF90EF400CB9377 /* TilezrSettingsManager.swift */; };
-		FE7512E22EF90EF400CB9377 /* TilezrGameRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7512CC2EF90EF400CB9377 /* TilezrGameRecord.swift */; };
+		FE7512E12EF90EF400CB9377 /* ObsidianPrismManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7512CA2EF90EF400CB9377 /* ObsidianPrismManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +41,14 @@
 		285D00B02EFE6B3700217403 /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
 		285D00B22EFE6B3A00217403 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		285D00E72EFE75F600217403 /* DtabCioam.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = DtabCioam.xcframework; sourceTree = "<group>"; };
+		358139C4E73ABC88C134F5E1 /* ObsidianUIFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ObsidianUIFactory.swift; sourceTree = "<group>"; };
+		4B303B40D8299EB7DA926CEF /* ObsidianTimerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ObsidianTimerManager.swift; sourceTree = "<group>"; };
+		5D8746324DAB7A7029C164CC /* ObsidianAnimationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ObsidianAnimationManager.swift; sourceTree = "<group>"; };
+		88FE9ED7D3AECA4F21E8535F /* ObsidianGameEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ObsidianGameEngine.swift; sourceTree = "<group>"; };
+		91C37203D0D82DFB062928B3 /* ObsidianScoreManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ObsidianScoreManager.swift; sourceTree = "<group>"; };
+		A78C431357200C7D3DF46887 /* ObsidianHapticManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ObsidianHapticManager.swift; sourceTree = "<group>"; };
 		B2A654BCD0BBDE298BA494A9 /* Pods-PartialPair.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PartialPair.debug.xcconfig"; path = "Target Support Files/Pods-PartialPair/Pods-PartialPair.debug.xcconfig"; sourceTree = "<group>"; };
+		C9B6CFD01B371FD87F76EB64 /* ObsidianExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ObsidianExtensions.swift; sourceTree = "<group>"; };
 		FE7511C52EF827DB00CB9377 /* PartialPair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartialPair.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE7511E12EF827F900CB9377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE7511E22EF827F900CB9377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,17 +56,16 @@
 		FE7511E52EF827F900CB9377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE7511EB2EF827F900CB9377 /* PartialPair.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PartialPair.xcdatamodel; sourceTree = "<group>"; };
 		FE7512C82EF90EF400CB9377 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE7512C92EF90EF400CB9377 /* TilezrDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilezrDataManager.swift; sourceTree = "<group>"; };
-		FE7512CA2EF90EF400CB9377 /* TilezrSettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilezrSettingsManager.swift; sourceTree = "<group>"; };
-		FE7512CC2EF90EF400CB9377 /* TilezrGameRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilezrGameRecord.swift; sourceTree = "<group>"; };
-		FE7512CD2EF90EF400CB9377 /* TilezrTileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilezrTileModel.swift; sourceTree = "<group>"; };
+		FE7512C92EF90EF400CB9377 /* ObsidianVaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObsidianVaultManager.swift; sourceTree = "<group>"; };
+		FE7512CA2EF90EF400CB9377 /* ObsidianPrismManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObsidianPrismManager.swift; sourceTree = "<group>"; };
+		FE7512CD2EF90EF400CB9377 /* ObsidianQuartzModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObsidianQuartzModel.swift; sourceTree = "<group>"; };
 		FE7512CF2EF90EF400CB9377 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FE7512D02EF90EF400CB9377 /* TilezrGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilezrGameViewController.swift; sourceTree = "<group>"; };
-		FE7512D12EF90EF400CB9377 /* TilezrInstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilezrInstructionsViewController.swift; sourceTree = "<group>"; };
-		FE7512D22EF90EF400CB9377 /* TilezrMainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilezrMainMenuViewController.swift; sourceTree = "<group>"; };
-		FE7512D32EF90EF400CB9377 /* TilezrRecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilezrRecordsViewController.swift; sourceTree = "<group>"; };
-		FE7512D42EF90EF400CB9377 /* TilezrSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilezrSettingsViewController.swift; sourceTree = "<group>"; };
-		FE7512D52EF90EF400CB9377 /* TilezrTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilezrTileView.swift; sourceTree = "<group>"; };
+		FE7512D02EF90EF400CB9377 /* ObsidianArenaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObsidianArenaViewController.swift; sourceTree = "<group>"; };
+		FE7512D12EF90EF400CB9377 /* ObsidianScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObsidianScrollViewController.swift; sourceTree = "<group>"; };
+		FE7512D22EF90EF400CB9377 /* ObsidianPortalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObsidianPortalViewController.swift; sourceTree = "<group>"; };
+		FE7512D32EF90EF400CB9377 /* ObsidianLedgerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObsidianLedgerViewController.swift; sourceTree = "<group>"; };
+		FE7512D42EF90EF400CB9377 /* ObsidianConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObsidianConfigViewController.swift; sourceTree = "<group>"; };
+		FE7512D52EF90EF400CB9377 /* ObsidianQuartzView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObsidianQuartzView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,16 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		3EE5216A017B39BA5C40B5AE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				358139C4E73ABC88C134F5E1 /* ObsidianUIFactory.swift */,
+				C9B6CFD01B371FD87F76EB64 /* ObsidianExtensions.swift */,
+			);
+			name = Utils;
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		934094406EBC4807287F418A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +110,19 @@
 				139690C1A65FEC6411FD6A5D /* Pods_PartialPair.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFC1696AAC945F3E5BCE4156 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				88FE9ED7D3AECA4F21E8535F /* ObsidianGameEngine.swift */,
+				5D8746324DAB7A7029C164CC /* ObsidianAnimationManager.swift */,
+				A78C431357200C7D3DF46887 /* ObsidianHapticManager.swift */,
+				91C37203D0D82DFB062928B3 /* ObsidianScoreManager.swift */,
+				4B303B40D8299EB7DA926CEF /* ObsidianTimerManager.swift */,
+			);
+			name = Engine;
+			path = Engine;
 			sourceTree = "<group>";
 		};
 		FE7511BC2EF827DB00CB9377 = {
@@ -122,6 +157,8 @@
 				FE7512CB2EF90EF400CB9377 /* Managers */,
 				FE7512CE2EF90EF400CB9377 /* Models */,
 				FE7512D62EF90EF400CB9377 /* Views */,
+				AFC1696AAC945F3E5BCE4156 /* Engine */,
+				3EE5216A017B39BA5C40B5AE /* Utils */,
 			);
 			path = PartialPair;
 			sourceTree = "<group>";
@@ -129,8 +166,8 @@
 		FE7512CB2EF90EF400CB9377 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				FE7512C92EF90EF400CB9377 /* TilezrDataManager.swift */,
-				FE7512CA2EF90EF400CB9377 /* TilezrSettingsManager.swift */,
+				FE7512C92EF90EF400CB9377 /* ObsidianVaultManager.swift */,
+				FE7512CA2EF90EF400CB9377 /* ObsidianPrismManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -138,8 +175,7 @@
 		FE7512CE2EF90EF400CB9377 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				FE7512CC2EF90EF400CB9377 /* TilezrGameRecord.swift */,
-				FE7512CD2EF90EF400CB9377 /* TilezrTileModel.swift */,
+				FE7512CD2EF90EF400CB9377 /* ObsidianQuartzModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -147,12 +183,12 @@
 		FE7512D62EF90EF400CB9377 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FE7512D02EF90EF400CB9377 /* TilezrGameViewController.swift */,
-				FE7512D12EF90EF400CB9377 /* TilezrInstructionsViewController.swift */,
-				FE7512D22EF90EF400CB9377 /* TilezrMainMenuViewController.swift */,
-				FE7512D32EF90EF400CB9377 /* TilezrRecordsViewController.swift */,
-				FE7512D42EF90EF400CB9377 /* TilezrSettingsViewController.swift */,
-				FE7512D52EF90EF400CB9377 /* TilezrTileView.swift */,
+				FE7512D02EF90EF400CB9377 /* ObsidianArenaViewController.swift */,
+				FE7512D12EF90EF400CB9377 /* ObsidianScrollViewController.swift */,
+				FE7512D22EF90EF400CB9377 /* ObsidianPortalViewController.swift */,
+				FE7512D32EF90EF400CB9377 /* ObsidianLedgerViewController.swift */,
+				FE7512D42EF90EF400CB9377 /* ObsidianConfigViewController.swift */,
+				FE7512D52EF90EF400CB9377 /* ObsidianQuartzView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -277,19 +313,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE7512D72EF90EF400CB9377 /* TilezrRecordsViewController.swift in Sources */,
-				FE7512D82EF90EF400CB9377 /* TilezrSettingsViewController.swift in Sources */,
-				FE7512D92EF90EF400CB9377 /* TilezrTileView.swift in Sources */,
-				FE7512DA2EF90EF400CB9377 /* TilezrGameViewController.swift in Sources */,
-				FE7512DB2EF90EF400CB9377 /* TilezrDataManager.swift in Sources */,
-				FE7512DC2EF90EF400CB9377 /* TilezrMainMenuViewController.swift in Sources */,
+				FE7512D72EF90EF400CB9377 /* ObsidianLedgerViewController.swift in Sources */,
+				FE7512D82EF90EF400CB9377 /* ObsidianConfigViewController.swift in Sources */,
+				FE7512D92EF90EF400CB9377 /* ObsidianQuartzView.swift in Sources */,
+				FE7512DA2EF90EF400CB9377 /* ObsidianArenaViewController.swift in Sources */,
+				FE7512DB2EF90EF400CB9377 /* ObsidianVaultManager.swift in Sources */,
+				FE7512DC2EF90EF400CB9377 /* ObsidianPortalViewController.swift in Sources */,
 				FE7512DD2EF90EF400CB9377 /* SceneDelegate.swift in Sources */,
-				FE7512DE2EF90EF400CB9377 /* TilezrTileModel.swift in Sources */,
-				FE7512DF2EF90EF400CB9377 /* TilezrInstructionsViewController.swift in Sources */,
+				FE7512DE2EF90EF400CB9377 /* ObsidianQuartzModel.swift in Sources */,
+				FE7512DF2EF90EF400CB9377 /* ObsidianScrollViewController.swift in Sources */,
 				FE7512E02EF90EF400CB9377 /* AppDelegate.swift in Sources */,
-				FE7512E12EF90EF400CB9377 /* TilezrSettingsManager.swift in Sources */,
-				FE7512E22EF90EF400CB9377 /* TilezrGameRecord.swift in Sources */,
+				FE7512E12EF90EF400CB9377 /* ObsidianPrismManager.swift in Sources */,
 				FE7511ED2EF827F900CB9377 /* PartialPair.xcdatamodeld in Sources */,
+				8CAB7A3F41C3EB2A7386A3C7 /* ObsidianGameEngine.swift in Sources */,
+				3629A0A979D224ADC85E5E0E /* ObsidianAnimationManager.swift in Sources */,
+				20382711237C9DC27CA6AA82 /* ObsidianHapticManager.swift in Sources */,
+				779B309C54104394E97E9D13 /* ObsidianScoreManager.swift in Sources */,
+				F53E139288B812883C146183 /* ObsidianTimerManager.swift in Sources */,
+				CD3CA1A22990BC9AF1986CDD /* ObsidianUIFactory.swift in Sources */,
+				FA5BC9B30441F4A7A1B8E1B1 /* ObsidianExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +382,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.PartialPair.ppp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -378,7 +420,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.PartialPair.ppp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
