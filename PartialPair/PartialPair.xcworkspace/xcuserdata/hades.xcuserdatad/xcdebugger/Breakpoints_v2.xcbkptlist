@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3D27D959-4434-4643-86A4-9C8ED1C7481D"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B664E498-1E02-4FCA-88B5-5A4FFCE6593A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PartialPair/New Group/SjenkaIgraView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "464"
+            endingLineNumber = "464"
+            landmarkName = "postaviLik(zaPoziciju:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B664E498-1E02-4FCA-88B5-5A4FFCE6593A - 37edaf3fc627dd7a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Swift.MainActor () -&gt; () in PartialPair.SjenkaIgraView.postaviLik(zaPoziciju: PartialPair.SjenkaIgraView.ZivotinjskaPozicija) -&gt; ()"
+                  moduleName = "PartialPair.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hades/Desktop/Code/12/1226-1/PartialPair/PartialPair/New%20Group/SjenkaIgraView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "464"
+                  endingLineNumber = "464">
+               </Location>
+               <Location
+                  uuid = "B664E498-1E02-4FCA-88B5-5A4FFCE6593A - b54f3776a6ab7c4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.UIImage&gt;, Swift.Optional&lt;Swift.Error&gt;, __C.SDImageCacheType, Swift.Optional&lt;Foundation.URL&gt;) -&gt; () in closure #2 @Swift.MainActor () -&gt; () in PartialPair.SjenkaIgraView.postaviLik(zaPoziciju: PartialPair.SjenkaIgraView.ZivotinjskaPozicija) -&gt; ()"
+                  moduleName = "PartialPair.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hades/Desktop/Code/12/1226-1/PartialPair/PartialPair/New%20Group/SjenkaIgraView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "465"
+                  endingLineNumber = "465">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92D2C412-6EB7-4169-BF70-5035394E8744"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PartialPair/New Group/SjenkaIgraView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "465"
+            endingLineNumber = "465"
+            landmarkName = "postaviLik(zaPoziciju:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
